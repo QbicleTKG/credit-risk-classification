@@ -27,7 +27,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 ---
 
 - **Machine Learning Model 2:**
-  - Accuracy Score: 0.9936781215845847 (Note: This seems to be the overall accuracy score rather than the balanced accuracy score)
+  - Accuracy Score: 0.9936781215845847
   - **Precision:**
     - High_risk: 1.00
     - Low_risk: 0.84
