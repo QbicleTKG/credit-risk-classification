@@ -15,39 +15,29 @@ In this section, I will describe the analysis I completed for the machine learni
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 ---
 
-* Machine Learning Model 1:
-```Balanced Accuracy Score: 0.9520479254722232```
+- **Machine Learning Model 1:**
+  - Balanced Accuracy Score: 0.9520479254722232
+  - **Precision:**
+    - High_risk: 1.00
+    - Low_risk: 0.85
+  - **Recall:**
+    - High_risk: 0.99
+    - Low_risk: 0.91
 
-```Confusion Matrix: ```
-```[[18663   102]```
-``` [   56   563]]```
+---
 
-```Classification Report:``` 
- ```             precision    recall  f1-score   support```
+- **Machine Learning Model 2:**
+  - Accuracy Score: 0.9936781215845847 (Note: This seems to be the overall accuracy score rather than the balanced accuracy score)
+  - **Precision:**
+    - High_risk: 1.00
+    - Low_risk: 0.84
+  - **Recall:**
+    - High_risk: 0.99
+    - Low_risk: 0.99
 
- ```  high_risk       1.00      0.99      1.00     18765```
-```    low_risk       0.85      0.91      0.88       619```
+---
 
-```    accuracy                           0.99     19384```
-```   macro avg       0.92      0.95      0.94     19384```
-```weighted avg       0.99      0.99      0.99     19384```
-
-
-* Machine Learning Model 2:
-```Accuracy Score: 0.9936781215845847```
-
-```Confusion Matrix: ```
-```[[18649   116]```
- ```[    4   615]]```
-
-```Classification Report: ```
-```              precision    recall  f1-score   support```
-
-```   high_risk       1.00      0.99      1.00     18765```
-```    low_risk       0.84      0.99      0.91       619```
-...
- ```  macro avg       0.92      0.99      0.95     19384```
-```weighted avg       0.99      0.99      0.99     19384```
+These points highlight the key performance metrics for each model, with particular attention to how well each model predicts high-risk and low-risk categories. Precision measures the model's accuracy in identifying true positives among all positive predictions, while recall measures the model's ability to find all actual positives in the dataset.
 
 --- 
 
