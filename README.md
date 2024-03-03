@@ -13,40 +13,43 @@ In this section, I will describe the analysis I completed for the machine learni
 ## Results
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
+---
 
 * Machine Learning Model 1:
-Balanced Accuracy Score: 0.9520479254722232
+```Balanced Accuracy Score: 0.9520479254722232```
 
-Confusion Matrix: 
-[[18663   102]
- [   56   563]]
+```Confusion Matrix: ```
+```[[18663   102]```
+``` [   56   563]]```
 
-Classification Report: 
-              precision    recall  f1-score   support
+```Classification Report:``` 
+ ```             precision    recall  f1-score   support```
 
-   high_risk       1.00      0.99      1.00     18765
-    low_risk       0.85      0.91      0.88       619
+ ```  high_risk       1.00      0.99      1.00     18765```
+```    low_risk       0.85      0.91      0.88       619```
 
-    accuracy                           0.99     19384
-   macro avg       0.92      0.95      0.94     19384
-weighted avg       0.99      0.99      0.99     19384
+```    accuracy                           0.99     19384```
+```   macro avg       0.92      0.95      0.94     19384```
+```weighted avg       0.99      0.99      0.99     19384```
 
 
 * Machine Learning Model 2:
-Accuracy Score: 0.9936781215845847
+```Accuracy Score: 0.9936781215845847```
 
-Confusion Matrix: 
-[[18649   116]
- [    4   615]]
+```Confusion Matrix: ```
+```[[18649   116]```
+ ```[    4   615]]```
 
-Classification Report: 
-              precision    recall  f1-score   support
+```Classification Report: ```
+```              precision    recall  f1-score   support```
 
-   high_risk       1.00      0.99      1.00     18765
-    low_risk       0.84      0.99      0.91       619
+```   high_risk       1.00      0.99      1.00     18765```
+```    low_risk       0.84      0.99      0.91       619```
 ...
-   macro avg       0.92      0.99      0.95     19384
-weighted avg       0.99      0.99      0.99     19384
+ ```  macro avg       0.92      0.99      0.95     19384```
+```weighted avg       0.99      0.99      0.99     19384```
+
+--- 
 
 ## Summary
 
